@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="../inicio.html"> Inicio </a>
+        <br>
+        <a href="productos.html"> Productos </a>
+        <br>
+        <a href="nosotros.html"> Nosotros </a>
+    </div>
+    <div style="text-align: center;">
+        <h1 >Contactenos</h1>
+        <p >Atendemos de martes a domingo de 3pm a 12pm</p>
+        <img src="../imagenes/callcenter.jpg" width="35%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.5633889725!2d-75.56171839005974!3d6.33602572528838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442fa42bea0611%3A0x56e9d33c8812ed5b!2sHamburguesas%20Archie&#39;s!5e1!3m2!1ses-419!2sco!4v1742048030435!5m2!1ses-419!2sco" width="390" height="258" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div style="text-align: center;">
+        <h1>Formulario de contacto</h1>
+        <form method=>
+            <label>Ingresa tu nombre:</label>
+            <input name="nombre" type="text" placeholder="Escribir en Mayuscula"> <br> 
+            <label>Edad:</label>
+            <input name="Edad" type="number" min="18" max="50"> <br>
+            <label>Telefono o Celular:</label>
+            <input name="Telefono" type="tel"> <br>
+            <label>Email:</label>
+            <input name="Email" type="email" required> <br>
+            <label>Fecha Nacimiento:</label>
+            <input name="Fecha" type="date" min="1950-01-01" max="2006-12-31"> <br>
+
+            <label>Sleccione su Género:</label> <br>
+            <input type="radio" name="Género" value="Hombre">Hombre
+            <input type="radio" name="Género" value="Mujer">Mujer
+            <input type="radio" name="Género" value="Otro">Otro
+            <input type="radio" name="Género" value="No sabe / No responde">No sabe / No responde <br>
+
+            <label>Selecciona medio de contacto:</label> <br>
+            <input type="checkbox" name="medio" value="Telefono">Telefono
+            <input type="checkbox" name="medio" value="Correo">Correo
+            <input type="checkbox" name="medio" value="Paloma">Paloma mensajera
+            <input type="checkbox" name="medio" value="Humo">Señales de humo <br>
+
+            <label>Selecciona un Plato:</label> <br>
+            <select name="Plato">
+                <option value="">Seleccionar</option>
+                <option value="Cordon Bleu">Cordon Bleu</option>
+                <option value="Pasta">Pasta a la Bolognesa</option>
+                <option value="Salmon">Salmon con camarones</option>
+            </select> <br>
+            <label>Observacion:</label>
+            <textarea name="Observacion" rows="5" cols="20"></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <br><br><br><br><br><br><br>
+        </form>
+    </div>
+</body>
+</html>
